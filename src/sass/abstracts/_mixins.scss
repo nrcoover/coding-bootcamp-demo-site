@@ -1,0 +1,89 @@
+@use "sass:map";
+@use "sass:meta";
+@use "sass:math";
+@use "breakpoints" as *;
+
+
+// Acquired from Kevin Powell: https://www.youtube.com/watch?v=7ruDsUN4-iA&t=0s
+// @mixin mq($key) {
+
+//    $size: map-get(variables.$breakpoints, $key);
+
+//    @media only screen and (min-width: $size) {
+//       @content;
+//    }
+// }
+
+
+// Vertically alligns any element
+@mixin vertical-center {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+ }
+
+// Positions any element absolute
+ @mixin absolute-position ($top, $right, $bottom, $left) {
+    position: absolute; 
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+ }
+
+// Shortens text with ellipses...
+ @mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+
+// SOURCE: Kevin Powell https://www.youtube.com/watch?v=7ruDsUN4-iA&t=0s
+// FULL SESSION: https://www.youtube.com/watch?v=o41w4tqHWc4
+@mixin pseudo(
+   $loc: before, 
+   $content: '', 
+   $pos: absolute,
+   $top: 0,
+   $bottom: 0,
+   $left: 0,
+   $right: 0,
+   ) {
+   // Offers ability to add content if needed, empty by default; adds the ability to change position, uses absolute by default.
+   
+   position: relative;
+
+   &::#{$loc} {
+      content: $content;
+      position: $pos;
+      top: $top;
+      bottom: $bottom;
+      left: $left;
+      right: $right;
+      @content;
+   }
+}
+
+// SOURCE: Kevin Powell https://www.youtube.com/watch?v=7ruDsUN4-iA&t=0s
+// FULL SESSION: https://www.youtube.com/watch?v=o41w4tqHWc4
+@mixin hover-lift() {
+   transition: transform 350ms ease-in-out;
+   box-shadow: 0 .25em .5em 0 rgba(black, .2);
+
+   @include pseudo($loc: after) {
+      box-shadow: 0 0 1.25em 0 rgba(black, .4);
+      transition: transform 350ms ease-in-out;
+      opacity: 0;
+   }
+
+   &:hover,
+   &:focus {
+      transform: scale(1.05);
+
+      &::after {
+         opacity: 1;
+      }
+   }
+}

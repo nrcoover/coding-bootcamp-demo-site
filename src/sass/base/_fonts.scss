@@ -1,0 +1,60 @@
+// MASTER FONT DECLERATION
+$current-font: $montserrat;
+
+// FONT FAMILY VARIABLES
+$lato: 'Lato', sans-serif;
+$merriweather: 'Merriweather', serif;
+$montserrat: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$playfair-display: 'Playfair Display', serif;
+$roboto: 'Roboto', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+// LATO - Google Fonts
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+// font-family: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+// MERRIWEATHER - Google Fonts - comical, regal; Comic Sans meets Times New Roman"
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+// font-family: 'Merriweather', serif;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+// MONTSERRAT - Google Fonts
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+// font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// OPEN SANS - Google Fonts
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+// font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+// PLAYFAIR DISPLAY - Google Fonts - similiar to Times New Roman
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+// font-family: 'Playfair Display', serif;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// ROBOTO - Google Fonts - similiar to Helvetica
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+// font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// UBUNTU - Google Fonts
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+// font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
