@@ -10,7 +10,12 @@ footer {
 article section,
 header nav {
     margin: 0 auto;
-    max-width: 1200px;
+}
+
+#Subscriber-Panel {
+    bottom: 0;
+    min-width: 320px;
+    width: 100vw
 }
 
 .hero-content-container {
@@ -28,3 +33,13 @@ header nav {
         
     }
 }
+
+.news-letter-content-container {
+    justify-content: space-between;
+
+    .news-input {
+       max-width: 30rem;
+       margin: 0 auto;
+    }
+}
+
