@@ -1,9 +1,30 @@
 @use "../base/index" as *;
 @use "../abstracts/index" as *;
 
+header,
+main,
+footer {
+    min-width: 320px;
+}
+
 article section,
 header nav {
     margin: 0 auto;
     max-width: 1200px;
 }
 
+.hero-content-container {
+    min-height: 100%;
+    max-width: 100%;
+
+    .hero-content-wrapper-left {
+
+        .hero-text-wrapper > * {
+            margin-bottom: 2rem;
+        }
+    }
+    
+    .hero-content-wrapper-right {
+        
+    }
+}

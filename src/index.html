@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" 
-    href="./styles.css">
+    href="./css/style.css">
     <!--insert font link url format-->
     <link href="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,16 +16,14 @@ meta description. This will often show up in search results.">
     <meta name="keywords" content="meta keywords, importance of meta keywords, meta keyword importance, meta tag keywords, meta tag keyword examples, meta etc">
 </head>
 
-<body>
-    <header>
-       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<body class="w-100" style="min-width: 100vw;">
+    <header class="position-absolute w-100">
+       <nav class="navbar navbar-expand-md bg-dark navbar-dark py-4">
            <div class="container">
                <a href="#" class="navbar-brand">Stellar Developer</a>
-               
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Nav-Menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                <div id="Nav-Menu" class="collapse navbar-collapse">
                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -43,46 +41,24 @@ meta description. This will often show up in search results.">
        </nav>
     </header>
 
-    <main>
-        <article>
-            <section class = "section1">
-                ...
+    <main class="w-100">
+        <article class="bg-dark text-light p-5 text-center text-md-start min-vh-100 d-flex align-items-center">
+            <section class="m-vh-100" style="margin: 0 auto;">
+                <div class="hero-content-container d-md-flex align-items-center justify-between">
+                    <div class="hero-content-wrapper-left d-flex flex-column justify-content-space-around">
+                        <div class="hero-text-wrapper container" style="padding: 0">
+                            <h1>Become a <span class="text-warning">Stellar Web Developer</span></h1>
+                            <h4>Join millions of developers across the world in making the best decision of their careers!</h4>
+                        </div>
+                        <div class="contianer">
+                            <button class="mb-3 btn btn-primary btn-lg">Enroll Now</button>
+                        </div>
+                    </div>
+                    <div class="hero-content-wrapper-right">
+                        <img class="img-fluid w-100" src="./assets/svgs/showcase.svg" alt="An artistic rendering of a woman with black hair tied up in a bun sitting in front of a laptop with a cup of coffee.">
+                    </div>
+                </div>
             </section>
-            <section class = "section2">
-                ...
-            </section>
-            <section class = "section3">
-                ...
-            </section>
-        </article>
-
-        <article>
-            <section class = "section1">
-                ...
-            </section>
-            <section class = "section2">
-                ...
-            </section>
-            <section class = "section3">
-                ...
-            </section>
-        </article>
-
-        <article class="form">
-            <form action="">
-                <h4>Default Form Title</h4>
-                <input type="radio" id="Value_One" name="default-form-title-example" value="Value_One">
-                <label for="Value_One">Value One</label><br>
-                <input type="radio" id="Value_Two" name="default-form-title-example" value="Value_Two">
-                <label for="Value_Two">Value Two</label><br>
-                <input type="radio" id="Value_Three" name="default-form-title-example" value="Value_Three">
-                <label for="Value_Three">Value Three</label><br>
-                <input type="radio" id="Value_Four" name="default-form-title-example" value="Value_Four">
-                <label for="Value_Four">Value Four</label><br>
-                <!-- The name value must be the same for all radio inputs that are related; this is how they are grouped so only one may be selected at a time. -->
-                <!-- The value attribute defines the unique value associated with each radio button. The value is not shown to the user, but is the value that is sent to the server on "submit" to identify which radio button that was selected. -->
-                <!-- The for attribute of the label tag must be the same as the name attribute of the input tag to link the label with the input. -->
-            </form>
         </article>
 
     </main>
