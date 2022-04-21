@@ -1,12 +1,10 @@
 @use "base";
-@use "components";
 @use "layout";
+@use "components";
 @use "utilities";
+@use "./abstracts/breakpoints";
 
-.container {
-    width: min(100% - 2rem, 60rem);
-    // This is saying, take up the full space, but leave 2rem on each side, and make sure that the element is never larger than 60rem.
-    margin-inline: auto;
-    // Centers the element on the page.
-}
-// Consider these ideas for a mixin or function later.
+// .container {
+//     width: min(100% - 2rem, 60rem);
+//     margin-inline: auto;
+// }

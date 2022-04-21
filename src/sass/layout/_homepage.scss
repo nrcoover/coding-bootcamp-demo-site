@@ -1,0 +1,9 @@
+@use "../base/index" as *;
+@use "../abstracts/index" as *;
+
+article section,
+header nav {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
