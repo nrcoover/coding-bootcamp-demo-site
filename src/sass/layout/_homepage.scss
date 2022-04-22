@@ -16,6 +16,10 @@ article {
     max-width: 100%;
 }
 
+#Hero-Info-Section {
+    transform: translateY(-10%);
+}
+
 #Subscriber-Panel {
     bottom: 0;
     min-width: 320px;
@@ -39,9 +43,9 @@ article {
         }
     }
     
-    .hero-content-wrapper-right {
+    // .hero-content-wrapper-right {
         
-    }
+    // }
 }
 
 .news-letter-content-container {
@@ -53,17 +57,17 @@ article {
     }
 }
 
-#Enrollment-Cards-Wrapper > * {
-    // height: 100%;
-    // top: 0%;
-    // bottom: 0%;
-}
+// #Enrollment-Cards-Wrapper > * {
+//     height: 100%;
+//     top: 0%;
+//     bottom: 0%;
+// }
 
-.enrollment-card {
-    // bottom: 0;
-    // height: inherit;
-    // justify-content: space-between;
-}
+// .enrollment-card {
+//     bottom: 0;
+//     height: inherit;
+//     justify-content: space-between;
+// }
 
 .box-shadow {
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
