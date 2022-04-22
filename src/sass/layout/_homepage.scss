@@ -12,10 +12,14 @@ header nav {
     margin: 0 auto;
 }
 
+article {
+    max-width: 100%;
+}
+
 #Subscriber-Panel {
     bottom: 0;
     min-width: 320px;
-    width: 100vw
+    width: 100%;
 }
 
 .hero-content-container {
@@ -41,6 +45,18 @@ header nav {
        max-width: 30rem;
        margin: 0 auto;
     }
+}
+
+#Enrollment-Cards-Wrapper > * {
+    // height: 100%;
+    // top: 0%;
+    // bottom: 0%;
+}
+
+.enrollment-card {
+    // bottom: 0;
+    // height: inherit;
+    // justify-content: space-between;
 }
 
 .box-shadow {
